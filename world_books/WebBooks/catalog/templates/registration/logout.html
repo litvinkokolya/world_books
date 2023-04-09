@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>logout</title>
+</head>
+<body>
+{% extends "base_generic.html" %}
+{% block content %}
+<p>Выход из системы!</p>
+<a href="{% url 'login' %}">Нажмите здесь, что снова войти в систему.</a>
+{% endblock %}
+</body>
+</html>
